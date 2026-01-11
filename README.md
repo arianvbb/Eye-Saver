@@ -3,30 +3,30 @@ This program uses TKinter, PyGame and libraries already apart of Python to make 
 
 ## ❇️Features
 - **PyGame**: A library that in this instance plays a sound for the 20 seconds that you're on break to give a auditory cue of when the period is over.
-- **Button**: A button on each page configured to run a code that checks the input and the unit selected then print the result.
-- **Dropdown**: A dropdown to be able to easily select between available units.
+- **Basic functionality**: I have labels, buttons with good spacing and have for the first time taken the liberty to change colors and make grid spacing work.
+- **Timer**: A timer inside the code that reveals the UI every 20 minutes for 20 seconds then dissapears.
 
 #### This project was made entirely in Python using the TKinter and PyGame libraries.
 
 ## 🤔The Process 
-I started searching up the documentation for the TKinter library and using basic features like editing the title of the root (window) and dimensions. After began experimentation, started with text, then buttons, having the buttons do things, etc. It was all time-consuming as I had no previous experience in GUIs nor using TKinter.
+I started by researching whether I should use frames for the 2 different pages but landed on rather just having everything on one and having it simple. Might not be super expandable but it works.
 
-After making a prototype I promptly figured out I would rather use Notebook to display tabs instead of Menu that would use a traditional menu to allow users to switch between pages, this allowed me to learn the basics of both.
+As I already knew how to make fonts, text, buttons, and their functionality the main problem in this project was getting the grid layout to work, this is where I spent a vast majority of my time.
 
-Most of my time was surpisingly spent struggling with actually placing the different features inside the root, I tried both grid and pack, encountered problems and went back and solved it.
+I got stuck on a few core concepts which I figured out thanks to the help from some people I found in online communities.
 
 ## 📚My takeaways 
 
-I learnt a ton of TKinter and hope to be able to make something new in TKinter soon, my main takeaways came from: Label, Notebook, Menu, Button, Title, Geometry, Grid and Pack.
+This time in TKinter I primarely learnt to change colors and actually use the grid to lay it out like one wants to.
 
-I figured out the basics of TKinter, how to make simple things run and how to make it look okay, using fonts, sizes, etc.
+I also discovered that after a few more projects in TKinter I will switch to PyQt6, TKinter is to get the hang of things.
 
-This is also the first time I genuinly realised the importance of writing clean, structured and strictly necessary code; which is something I'll focus on moving forward.
+This project also reinforced a lot of core Python concepts like -= or +=, as well as specifying global integers locally, defining functions, etc.
 
 ## 🚀Running the project 
 
 1. Copy the program to your computer.
-2. Using an editor and Python installed you can simply run the program and it should run fine.
+2. Using an editor with Python and the other libraries installed you can simply run the program and it should run fine.
 
 ## 🍿Video
 
