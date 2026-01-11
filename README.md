@@ -1,5 +1,6 @@
 # ☑️Eye-Saver
 This program uses TKinter, PyGame and libraries already apart of Python to make a program that follows the 20-20-20 rule to ensure eye safety when sitting behind a computer.
+Mainly engaged in this project to reinforce GUI concepts and to develop a tool that solves a real life problem.
 
 ## ❇️Features
 - **PyGame**: A library that in this instance plays a sound for the 20 seconds that you're on break to give a auditory cue of when the period is over.
