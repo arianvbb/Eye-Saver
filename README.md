@@ -30,4 +30,5 @@ This project also reinforced a lot of core Python concepts like -= or +=, as wel
 2. Using an editor with Python and the other libraries installed you can simply run the program and it should run fine.
 
 ## 🍿Video
+https://github.com/user-attachments/assets/7e4f1ac5-5ea4-4980-8ca1-e5537018a3ac
 
