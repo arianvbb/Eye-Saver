@@ -1,3 +1,5 @@
+import tkinter.font as tkFont
+
 title_font = tkFont.Font(
     family = "Arial",
     size = 40, 
