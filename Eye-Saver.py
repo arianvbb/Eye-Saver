@@ -58,46 +58,20 @@ def update():
         NUMBER = 20
         root.after(HIDE_TIME * 1000, show_window)
 
+import Fonts
 
-title_font = tkFont.Font(
-    family = "Arial",
-    size = 40, 
-    weight = "bold"
-)
-
-text_font = tkFont.Font(
-    family = "Arial",
-    size = 30,
-)
-
-button_font = tkFont.Font(
-    family = "Arial",
-    size = 60
-)
-
-countdown_font = tkFont.Font(
-    family = "Arial",
-    size = 60,
-    weight = "bold"
-)
-
-countdown_text_font = tkFont.Font(
-    family = "Arial",
-    size = 40,
-    weight = "bold"
-)
-
-title = tk.Label(text = "Eye Saver", fg = "white", bg = BG_COLOR, font = title_font)
+title = tk.Label(text = "Eye Saver", fg = "white", bg = BG_COLOR, font = Fonts.title_font)
 title.size = (40, 20)
 title.grid(column=1, row=1, pady=80)
 
-text = tk.Label(text = "This program will remind you every 20 minutes to look away for the health of your eyes!", fg = "white", bg = BG_COLOR, font = text_font)
+text = tk.Label(text = "This program will remind you every 20 minutes to look away for the health of your eyes!", fg = "white", bg = BG_COLOR, font = Fonts.text_font)
 text.grid(column=1, row=2, pady=30)
 
-button = tk.Button(text = "Start", command = remove, fg = "white", bg = BG_COLOR, font = button_font)
+button = tk.Button(text = "Start", command = remove, fg = "white", bg = BG_COLOR, font = Fonts.button_font)
 button.grid(column=1, row=3, pady = 140)
 
-countdown_number = tk.Label(text = str(NUMBER),  fg = "white", bg = BG_COLOR, font = countdown_font)
-countdown_text = tk.Label(text = "Look at something roughly 6 meters away or fruther", fg = "white", bg = BG_COLOR, font = countdown_text_font)
+countdown_number = tk.Label(text = str(NUMBER),  fg = "white", bg = BG_COLOR, font = Fonts.countdown_font)
+countdown_text = tk.Label(text = "Look at something roughly 6 meters away or fruther", fg = "white", bg = BG_COLOR, font = Fonts.countdown_text_font)
+
 
 root.mainloop()
